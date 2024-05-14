@@ -28,6 +28,29 @@ git diff
 
 git commit -m "message"
 git log
-git show commit_id
+git log --oneline
+
 git show
+git show {commit_id}
+
+git checkout {commit_id}
+git checkout master
+
+
+.gitignore
+ 
+************************************
+
+1. test.txt
+2. .env
+3. *.txt
+4. !main.txt
+5. test?txt
+6. temp/
+
+git remote
+
+
+ 
+
 

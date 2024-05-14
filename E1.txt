@@ -1,5 +1,0 @@
-This is example 1 folder after initializing git.
-
-After git add This is a Track file.
-
-Before Second commit.
