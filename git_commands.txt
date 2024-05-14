@@ -3,9 +3,9 @@ git config --global user.name "Mahbub Islam"
 git config --global user.email "mahbubislam0511@gmail.com"
 
 
-**************************************************************************************************
+****************************************************************************************************************************************
 
-Working Directory  ______________git add___________________ Stagging Area                               Local Repository                              Remote Repository
+Working Directory  ______________git add___________________ Stagging Area              Local Repository                Remote Repository
 
 After "git init"
 Consider all as
@@ -13,7 +13,7 @@ Track file
 & Untrack file.
 
 
-**************************************************************************************************
+****************************************************************************************************************************************
 
 git status
 git init
@@ -39,8 +39,7 @@ git checkout master
 
 .gitignore
 
-************************************
-
+***************************************************************************************************************************************
 1. test.txt
 2. .env
 3. *.txt
@@ -48,13 +47,32 @@ git checkout master
 5. test?txt
 6. temp/
 
+***************************************************************************************************************************************
 
 git remote
 git remote add origin https://github.com/mahbubislam0511/git_Learning.git
 git remote -v
 git push -u origin master
 
+***************************************************************************************************************************************
 
+Create a new repository on the command line :
+
+echo "# git_Learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mahbubislam0511/git_Learning.git
+git push -u origin master
+
+***************************************************************************************************************************************
+
+Push an existing repository from the command line :
+
+git remote add origin https://github.com/mahbubislam0511/git_Learning.git
+git branch -M master
+git push -u origin master
  
 
 
