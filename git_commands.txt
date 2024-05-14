@@ -1,0 +1,30 @@
+git config --list
+git config --global user.name "Mahbub Islam"
+git config --global user.email "mahbubislam0511@gmail.com"
+
+
+**************************************************************************************************
+
+Working Directory  ______________git add___________________ Stagging Area                               Local Repository                              Remote Repository
+
+After "git init"
+Consider all as
+Track file
+& Untrack file.
+
+
+**************************************************************************************************
+
+git status
+git init
+
+git add git_commands.txt
+git add .
+git add -a
+
+git restore E1.txt
+git rm --cached E1.txt
+git diff
+
+git commit -m "message"
+
