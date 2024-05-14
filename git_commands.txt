@@ -20,11 +20,14 @@ git init
 
 git add git_commands.txt
 git add .
-git add -a
+git add -A
 
 git restore E1.txt
 git rm --cached E1.txt
 git diff
 
 git commit -m "message"
+git log
+git show commit_id
+git show
 
