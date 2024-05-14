@@ -38,7 +38,7 @@ git checkout master
 
 
 .gitignore
- 
+
 ************************************
 
 1. test.txt
@@ -48,7 +48,11 @@ git checkout master
 5. test?txt
 6. temp/
 
+
 git remote
+git remote add origin https://github.com/mahbubislam0511/git_Learning.git
+git remote -v
+git push -u origin master
 
 
  
