@@ -5,7 +5,7 @@ git config --global user.email "mahbubislam0511@gmail.com"
 
 ****************************************************************************************************************************************
 
-Working Directory  ______________git add___________________ Stagging Area              Local Repository                Remote Repository
+Working Directory_____(git add)______Stagging Area______(git commit)_______Local Repository_____(git push)_____Remote Repository
 
 After "git init"
 Consider all as
@@ -41,11 +41,14 @@ git checkout master
 
 ***************************************************************************************************************************************
 1. test.txt
-2. .env
-3. *.txt
-4. !main.txt
-5. test?txt
-6. temp/
+2. .env (Ignores any file named .env, regardless of where it appears in the repo.)
+3. *.txt ( Ignores all .txt files in all directories.)
+4. !main.txt (This means "do NOT ignore main.txt").
+5. test?txt (The ? matches any single character).
+6. temp/ (Ignores the temp folder and everything inside it.)
+
+node_modules/  : Ignore all node_modules directories, Anywhere.
+/test-results/ : Ignore test-results only at the root of the repo.
 
 ***************************************************************************************************************************************
 
